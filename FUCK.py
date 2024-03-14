@@ -202,9 +202,9 @@ def login():
 		crack_file()
 	elif TUTUL in ['i','0i']:
 		result()
-	elif TUTUL in ['2','02']:
+#	elif TUTUL in ['2','02']:
 #		os.system('xdg-open https://wa.me/+8801608843956')
-	elif TUTUL in ['3']:
+#	elif TUTUL in ['3']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
 		print('#DONE LOGOUT ')
